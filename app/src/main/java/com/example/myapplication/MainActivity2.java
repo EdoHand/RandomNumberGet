@@ -16,5 +16,5 @@ public class MainActivity2 extends AppCompatActivity {
    public static int getMainActivity2(){
         return new Random().nextInt();
    }
-   
+
 }
