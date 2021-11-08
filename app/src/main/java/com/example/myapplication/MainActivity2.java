@@ -13,10 +13,8 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
     }
-   public int getMainActivity2(){
+   public static int getMainActivity2(){
         return new Random().nextInt();
    }
-   public int getMainActivity(int limit){
-        return new Random().nextInt();
-   }
+   
 }
