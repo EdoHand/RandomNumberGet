@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        System.out.println("Hello" + MainActivity2.getMainActivity2());
+        System.out.println("The number i : " + new MainActivity2().getRandomNumber(99));
     }
 }
